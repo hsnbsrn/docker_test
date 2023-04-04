@@ -5,7 +5,7 @@ WORKDIR /app
 
 COPY *.csproj .
 
-RUN dotnet restore
+
 
 COPY . ./
 
